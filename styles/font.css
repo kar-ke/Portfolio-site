@@ -1,0 +1,47 @@
+@font-face {
+    font-family: Poppins-Light;
+    src: url('../assert/fonts/Poppins-Light.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url('../assert/fonts/Poppins-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Poppins-Medium;
+    src: url('../assert/fonts/Poppins-Medium.ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Poppins-SemiBold;
+    src: url('../assert/fonts/Poppins-SemiBold.ttf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: Poppins-Bold;
+    src: url('../assert/fonts/Poppins-Bold.ttf');
+    font-weight: 800;
+}
+
+
+
+:root{
+    --font-light : Poppins-Light, "sans-serif";
+    --font-regular : Poppins-Regular, "sans-serif";
+    --font-medium : Poppins-Medium, "sans-serif";
+    --font-semibold : Poppins-SemiBold, "sans-serif";
+    --font-bold : Poppins-Bold, "sans-serif";
+}
+
+
+
+.font-light{ font-family: var(--font-light); }
+.font-regular{ font-family: var(--font-regular); }
+.font-medium{ font-family: var(--font-medium); }
+.font-semibold{ font-family: var(--font-semibold); }
+.font-bold{ font-family: var(--font-bold); }

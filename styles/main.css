@@ -1,0 +1,73 @@
+
+/* navbar section  */
+.nav-bar-container{
+    height: 80px;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container{
+    height: 20px;
+    width: auto;
+}
+
+.logo-container img{
+    height: 100%;
+    width: 100%;
+}
+
+.nav-list{
+    display: flex;
+    gap: 50px;
+}
+
+.nav-item{
+    font-size: 16px;
+}
+
+.menu-actions{
+    display: none;
+}
+
+
+
+/* hero section  */
+.hero-section{
+    height: max-content;
+    margin: 80px 0;
+}
+
+.hero-container{
+    display: flex;
+}
+
+.hero-image-section{
+    flex: 1;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.hero-text-section{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name{
+    font-size: 30px;
+    font-family: var(--font-semibold);
+}
+
+.hero-img{
+    height: 480px;
+    width: auto;
+}
+
+
+
